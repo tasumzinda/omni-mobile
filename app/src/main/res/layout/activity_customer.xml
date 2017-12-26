@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:fitsSystemWindows="true">
+
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <include layout="@layout/toolbar"/>
+        <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="@dimen/side_margin"
+                android:layout_marginStart="@dimen/side_margin"
+                android:layout_marginEnd="@dimen/side_margin"
+                android:layout_marginRight="@dimen/side_margin">
+            <EditText android:id="@+id/firstName"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:inputType="text"
+                      android:drawablePadding="6dp"
+                      android:hint="Enter first name" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="@dimen/side_margin"
+                android:layout_marginStart="@dimen/side_margin"
+                android:layout_marginEnd="@dimen/side_margin"
+                android:layout_marginRight="@dimen/side_margin">
+            <EditText android:id="@+id/lastName"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:inputType="text"
+                      android:drawablePadding="6dp"
+                      android:hint="Enter last name" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="@dimen/side_margin"
+                android:layout_marginStart="@dimen/side_margin"
+                android:layout_marginEnd="@dimen/side_margin"
+                android:layout_marginRight="@dimen/side_margin">
+            <EditText android:id="@+id/address"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:inputType="textMultiLine"
+                      android:drawablePadding="6dp"
+                      android:hint="Enter address" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="@dimen/side_margin"
+                android:layout_marginStart="@dimen/side_margin"
+                android:layout_marginEnd="@dimen/side_margin"
+                android:layout_marginRight="@dimen/side_margin">
+            <EditText android:id="@+id/idNumber"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:inputType="text"
+                      android:drawablePadding="6dp"
+                      android:hint="Enter ID Number" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="@dimen/side_margin"
+                android:layout_marginStart="@dimen/side_margin"
+                android:layout_marginEnd="@dimen/side_margin"
+                android:layout_marginRight="@dimen/side_margin">
+            <EditText android:id="@+id/phoneNumber"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:inputType="phone"
+                      android:drawablePadding="6dp"
+                      android:hint="Enter phoneNumber" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="@dimen/side_margin"
+                android:layout_marginStart="@dimen/side_margin"
+                android:layout_marginEnd="@dimen/side_margin"
+                android:layout_marginRight="@dimen/side_margin">
+            <EditText android:id="@+id/cardNumber"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:inputType="number"
+                      android:drawablePadding="6dp"
+                      android:hint="Enter card number" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.v7.widget.AppCompatButton
+                android:id="@+id/btn_save"
+                style="@style/ButtonStyle"
+                android:text="Save"/>
+
+
+    </LinearLayout>
+</ScrollView>

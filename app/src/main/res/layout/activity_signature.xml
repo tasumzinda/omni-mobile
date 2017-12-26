@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <include layout="@layout/toolbar"/>
+
+    <com.kyanogen.signatureview.SignatureView
+            xmlns:sign="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/signature_view"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            sign:penSize="5dp"
+            sign:backgroundColor="#ffffff"
+            sign:penColor="#000000"
+            sign:enableSignature="true"/>
+        <android.support.v7.widget.AppCompatButton
+                android:id="@+id/btn_save"
+                style="@style/ButtonStyle"
+                android:text="Save"/>
+        <android.support.v7.widget.AppCompatButton
+                android:id="@+id/btn_clear"
+                style="@style/ButtonStyle"
+                android:text="Clear"/>
+    </LinearLayout>
+</LinearLayout>

@@ -7,11 +7,107 @@
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
     </style>
+
+    <style name="TextViewHeader">
+        <item name="android:textSize">@dimen/heading_text_size</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginTop">@dimen/margin_top</item>
+        <item name="android:layout_marginBottom">@dimen/margin_bottom</item>
+        <item name="android:layout_marginEnd">@dimen/side_margin</item>
+        <item name="android:layout_marginStart">@dimen/side_margin</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="TextViewInfo">
+        <item name="android:textSize">@dimen/heading_text_size</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginTop">@dimen/margin_top</item>
+        <item name="android:layout_marginBottom">@dimen/margin_bottom</item>
+        <item name="android:layout_marginEnd">@dimen/side_margin</item>
+        <item name="android:layout_marginStart">@dimen/side_margin</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="TextViewLabel">
+        <item name="android:textSize">@dimen/heading_text_size</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginTop">@dimen/margin_top</item>
+        <item name="android:layout_marginBottom">@dimen/margin_bottom</item>
+        <item name="android:layout_marginEnd">@dimen/side_margin</item>
+        <item name="android:layout_marginStart">@dimen/side_margin</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="ListViewLabel">
+        <item name="android:textSize">@dimen/heading_text_size</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginEnd">@dimen/side_margin</item>
+        <item name="android:layout_marginStart">@dimen/side_margin</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+    <style name="DisplayLabelStyle">
+        <item name="android:textSize">@dimen/text_size</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginEnd">@dimen/side_margin</item>
+        <item name="android:layout_marginStart">@dimen/side_margin</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+    <style name="DisplayValueStyle">
+        <item name="android:layout_width">500dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingBottom">20dp</item>
+    </style>
+    <style name="ListViewStyle">
+        <item name="android:layout_width">200dp</item>
+        <item name="android:layout_height">100dp</item>
+        <item name="android:paddingBottom">20dp</item>
+    </style>
+    <style name="ButtonStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:layout_marginTop">@dimen/margin_top</item>
+        <item name="android:layout_marginBottom">@dimen/margin_top</item>
+        <item name="android:layout_marginStart">@dimen/side_margin</item>
+        <item name="android:layout_marginEnd">@dimen/side_margin</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textSize">@dimen/text_size</item>
+        <item name="android:background">@drawable/rounded_button</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="TextBoxStyle">
+        <item name="android:layout_marginRight">@dimen/side_margin</item>
+        <item name="android:layout_marginLeft">@dimen/side_margin</item>
+        <item name="android:background">@drawable/round_textbox</item>
+        <item name="android:layout_marginTop">@dimen/margin_top</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:textSize">@dimen/text_size</item>
+    </style>
     <style name="AppTheme.NoActionBar">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
     </style>
     <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+
+    <style name="Toolbar.TitleText" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">@dimen/text_size</item>
+    </style>
+    <style name="AppTheme.NoActionBar.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+    <style name="AppTheme.NoActionBar.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
 
 </resources>
